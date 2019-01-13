@@ -26,10 +26,10 @@ $(document).ready(function() {
 	$('.work-box').fancybox();
 
 	// Flexslider
-	$('.flexslider').flexslider({
-		animation: "fade",
-		directionNav: false,
-	});
+	// $('.flexslider').flexslider({
+	// 	animation: "fade",
+	// 	directionNav: false,
+	// });
 
 	// Page Scroll
 	var sections = $('section')
@@ -60,7 +60,7 @@ $(document).ready(function() {
 		$(this).toggleClass('close-nav');
 		nav.toggleClass('open');
 		return false;
-	});	
+	});
 	nav.find('a').on('click', function() {
 		$('.nav-toggle').toggleClass('close-nav');
 		nav.toggleClass('open');
