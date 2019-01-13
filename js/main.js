@@ -26,10 +26,10 @@ $(document).ready(function() {
 	$('.work-box').fancybox();
 
 	// Flexslider
-	$('.flexslider').flexslider(function() {
-		animation: "fade",
-		directionNav: false,
-	});
+	// $('.flexslider').flexslider({
+	// 	animation: "fade",
+	// 	directionNav: false,
+	// });
 
 	// Page Scroll
 	var sections = $('section')
