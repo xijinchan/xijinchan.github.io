@@ -300,6 +300,16 @@ ul li {
   padding-top: 15%;
   padding-bottom: 5%; }
 
+.banner-logo-text {
+  color: white;
+  /* font-family: "Open Sans", sans-serif; */
+  /* font-family: "Cardo", sans-serif; */
+  font-weight: 700;
+  font-size: 50px;
+  text-align: center;
+  padding-top: 15%;
+  padding-bottom: 15%; }
+
 /* ==========================================================================
 	$Features
 ========================================================================== */
